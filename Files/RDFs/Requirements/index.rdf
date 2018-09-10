@@ -1,0 +1,148 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://www.iso-icdd.org/examples/part1/usecase1A/requirements/index.rdf#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ct="http://www.iso-icdd.org/part1/2019/Container#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://www.iso-icdd.org/examples/part1/usecase1A/requirements/index.rdf">
+  <owl:Ontology rdf:about="">
+    <ct:description>icdd showcase 1a:  Requirements container</ct:description>
+    <ct:containsDocument>
+      <ct:InternalDocument rdf:ID="idb57cbae5-5e10-448d-855b-f09b4b146814">
+        <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2018-05-28T14:13:28.167</ct:creationDate>
+        <ct:pending rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</ct:pending>
+        <ct:versionDescription>first version</ct:versionDescription>
+        <ct:filetype>png</ct:filetype>
+        <ct:versionID>1</ct:versionID>
+        <ct:name>IssuePhoto.png</ct:name>
+        <ct:creator>
+          <ct:Person rdf:ID="id0b80ea4e-eba1-481f-bc97-309c0de355b9">
+            <ct:versionDescription>first version</ct:versionDescription>
+            <ct:versionID>1</ct:versionID>
+            <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2018-05-28T14:13:28.167</ct:creationDate>
+            <ct:creator rdf:resource="#id0b80ea4e-eba1-481f-bc97-309c0de355b9"/>
+            <ct:description>works at BuildingBits.nl</ct:description>
+            <ct:name>Hans Schevers</ct:name>
+          </ct:Person>
+        </ct:creator>
+        <ct:filename>issuePhoto.png</ct:filename>
+        <ct:description>a photo is required for each issue</ct:description>
+      </ct:InternalDocument>
+    </ct:containsDocument>
+    <ct:creator rdf:resource="#id0b80ea4e-eba1-481f-bc97-309c0de355b9"/>
+    <ct:containsDocument>
+      <ct:InternalDocument rdf:ID="idc59e723b-95a8-4e84-9154-54db44a240a1">
+        <ct:versionDescription>first version</ct:versionDescription>
+        <ct:filetype>xls</ct:filetype>
+        <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2018-05-28T14:13:28.167</ct:creationDate>
+        <ct:versionID>1</ct:versionID>
+        <ct:pending rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</ct:pending>
+        <ct:creator rdf:resource="#id0b80ea4e-eba1-481f-bc97-309c0de355b9"/>
+        <ct:filename>timesheet.xls</ct:filename>
+        <ct:description>Time sheet</ct:description>
+        <ct:name>timesheet.xls</ct:name>
+      </ct:InternalDocument>
+    </ct:containsDocument>
+    <ct:publisher>
+      <ct:Organisation rdf:ID="idd849fa6d-8491-4af1-904f-99a760571c87">
+        <ct:versionDescription>first version</ct:versionDescription>
+        <ct:versionID>1</ct:versionID>
+        <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2018-05-28T14:13:28.167</ct:creationDate>
+        <ct:creator rdf:resource="#id0b80ea4e-eba1-481f-bc97-309c0de355b9"/>
+        <ct:description>a working group preparing Part 1 and Part 2 of the ICDD</ct:description>
+      </ct:Organisation>
+    </ct:publisher>
+    <ct:containsDocument>
+      <ct:InternalDocument rdf:ID="id57460da1-87ec-4d74-b8d4-cf0f5f16bf9f">
+        <ct:pending rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</ct:pending>
+        <ct:versionID>1</ct:versionID>
+        <ct:creator rdf:resource="#id0b80ea4e-eba1-481f-bc97-309c0de355b9"/>
+        <ct:filename>inspection_48D-100.xls</ct:filename>
+        <ct:filetype>xls</ct:filetype>
+        <ct:name>inspection_48D-100.xls</ct:name>
+        <ct:description>Excel inspection report. One row in Excel must be for each construction part</ct:description>
+        <ct:versionDescription>first version</ct:versionDescription>
+        <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2018-05-28T14:13:28.167</ct:creationDate>
+      </ct:InternalDocument>
+    </ct:containsDocument>
+    <ct:containsDocument>
+      <ct:InternalDocument rdf:ID="id9f01cef7-8939-4ee4-ac88-27d49df430c3">
+        <ct:filename>48D-100.ifc</ct:filename>
+        <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2018-05-28T14:13:28.167</ct:creationDate>
+        <ct:description>An IFC/BIM model of viaduct Asset 48D-100</ct:description>
+        <ct:pending rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</ct:pending>
+        <ct:creator rdf:resource="#id0b80ea4e-eba1-481f-bc97-309c0de355b9"/>
+        <ct:versionDescription>first version</ct:versionDescription>
+        <ct:versionID>1</ct:versionID>
+        <ct:filetype>ifc</ct:filetype>
+        <ct:name>48D-100.IFC</ct:name>
+      </ct:InternalDocument>
+    </ct:containsDocument>
+    <ct:containsDocument>
+      <ct:InternalDocument rdf:ID="id39a2f462-8685-4258-8e33-8e1441bc1c3f">
+        <ct:versionDescription>first version</ct:versionDescription>
+        <ct:description>Excel template for the timesheet</ct:description>
+        <ct:versionID>1</ct:versionID>
+        <ct:filename>TimeSheetTemplate.xlsx</ct:filename>
+        <ct:name>TimeSheetTemplate.xlsx</ct:name>
+        <ct:format>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</ct:format>
+        <ct:creator rdf:resource="#id0b80ea4e-eba1-481f-bc97-309c0de355b9"/>
+        <ct:pending rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</ct:pending>
+        <ct:filetype>xlsx</ct:filetype>
+        <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2018-05-28T14:13:28.167</ct:creationDate>
+      </ct:InternalDocument>
+    </ct:containsDocument>
+    <ct:containsDocument>
+      <ct:InternalDocument rdf:ID="id5889c5d9-8b9e-4ecb-9ec2-9db56e4ecbf1">
+        <ct:pending rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</ct:pending>
+        <ct:name>IDSV1.pdf</ct:name>
+        <ct:filetype>pdf</ct:filetype>
+        <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2018-05-28T14:13:28.167</ct:creationDate>
+        <ct:versionID>1</ct:versionID>
+        <ct:description>IDS including decomposition requirements for the IFC file</ct:description>
+        <ct:creator rdf:resource="#id0b80ea4e-eba1-481f-bc97-309c0de355b9"/>
+        <ct:format>application/pdf</ct:format>
+        <ct:filename>IDSV1.pdf</ct:filename>
+        <ct:versionDescription>first version</ct:versionDescription>
+      </ct:InternalDocument>
+    </ct:containsDocument>
+    <ct:containsDocument>
+      <ct:InternalDocument rdf:ID="id9a34f397-aa5a-4f25-9109-4b4839ff1505">
+        <ct:description>Excel template for the inspection report</ct:description>
+        <ct:format>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</ct:format>
+        <ct:filename>InspectionReportTemplate.xlsx</ct:filename>
+        <ct:versionID>1</ct:versionID>
+        <ct:pending rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</ct:pending>
+        <ct:name>InspectionReportTemplate.xlsx</ct:name>
+        <ct:filetype>xlsx</ct:filetype>
+        <ct:creator rdf:resource="#id0b80ea4e-eba1-481f-bc97-309c0de355b9"/>
+        <ct:versionDescription>first version</ct:versionDescription>
+        <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2018-05-28T14:13:28.167</ct:creationDate>
+      </ct:InternalDocument>
+    </ct:containsDocument>
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2018-05-28T14:13:28.167</ct:creationDate>
+    <rdf:type rdf:resource="/part1/2019/Container#ContainerDescription"/>
+    <ct:versionDescription>first version</ct:versionDescription>
+    <owl:imports rdf:resource="/part1/2019/Container"/>
+    <ct:conformanceIndicator>ICDD-Part1-Container</ct:conformanceIndicator>
+    <ct:versionID>1</ct:versionID>
+  </owl:Ontology>
+</rdf:RDF>
