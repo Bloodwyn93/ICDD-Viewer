@@ -11,6 +11,18 @@ class Example(QtGui.QWidget):
 
     def initUI(self):
 
+        hbox = QtGui.QHBoxLayout(self)
+        pixmap = QtGui.QPixmap("25_Test1.png")
+
+        lbl = QtGui.QLabel(self)
+        lbl.setPixmap(pixmap)
+
+        hbox.addWidget(lbl)
+        self.setLayout(hbox)
+
+        self.move(300, 200)
+        self.setWindowTitle("Red Rock")
+        self.show()
 
 
 def main():
