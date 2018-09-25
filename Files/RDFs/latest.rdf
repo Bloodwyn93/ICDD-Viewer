@@ -1,0 +1,156 @@
+<?xml version='1.0'?>
+<!--  If you are running a bot please visit this policy page outlining rules you must respect. https://www.livejournal.com/bots/  --><rdf:RDF
+   xml:lang="en"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ya="http://blogs.yandex.ru/schema/foaf/"
+   xmlns:lj="http://www.livejournal.org/rss/lj/1.0/"
+   xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <foaf:Person>
+    <foaf:nick>danbri</foaf:nick>
+    <foaf:name>Dan Brickley</foaf:name>
+    <foaf:openid rdf:resource="https://danbri.livejournal.com/" />
+    <ya:country dc:title="UK" rdf:resource="https://www.livejournal.com/directory.bml?opt_sort=ut&amp;s_loc=1&amp;loc_cn=UK"/>
+    <ya:city dc:title="Bristol" rdf:resource="https://www.livejournal.com/directory.bml?opt_sort=ut&amp;s_loc=1&amp;loc_cn=UK&amp;loc_st=&amp;loc_ci=Bristol"/>
+    <foaf:dateOfBirth>1972-01-09</foaf:dateOfBirth>
+    <foaf:img rdf:resource="https://l-userpic.livejournal.com/68202348/1344540" />
+    <foaf:page>
+      <foaf:Document rdf:about="https://danbri.livejournal.com/profile">
+        <dc:title>LiveJournal.com Profile</dc:title>
+        <dc:description>Full LiveJournal.com profile, including information such as interests and bio.</dc:description>
+      </foaf:Document>
+    </foaf:page>
+    <foaf:icqChatID></foaf:icqChatID>
+    <foaf:aimChatID>danbri2002</foaf:aimChatID>
+    <foaf:jabberID>danbri@jabber.com</foaf:jabberID>
+    <foaf:msnChatID>danbri@hotmail.co.uk</foaf:msnChatID>
+    <foaf:yahooChatID>danbri3</foaf:yahooChatID>
+    <ya:blogActivity>
+      <ya:Posts>
+        <ya:feed rdf:resource="https://danbri.livejournal.com/data/rss" dc:type="application/rss+xml" />
+        <ya:posted>14</ya:posted>
+      </ya:Posts>
+      <ya:Comments>
+        <ya:posted>6</ya:posted>
+        <ya:received>288</ya:received>
+      </ya:Comments>
+    </ya:blogActivity>
+    <foaf:weblog rdf:resource='https://danbri.livejournal.com/' lj:dateCreated='2003-09-23T12:20:50' lj:dateLastUpdated='2012-02-09T17:34:53' />
+    <foaf:homepage rdf:resource="http%3A%2F%2Fdanbri.org%2F" dc:title="" />
+    <foaf:interest dc:title="activism" rdf:resource="https://www.livejournal.com/interests.bml?int=activism" />
+    <foaf:interest dc:title="bristol" rdf:resource="https://www.livejournal.com/interests.bml?int=bristol" />
+    <foaf:interest dc:title="foaf" rdf:resource="https://www.livejournal.com/interests.bml?int=foaf" />
+    <foaf:interest dc:title="human rights" rdf:resource="https://www.livejournal.com/interests.bml?int=human%20rights" />
+    <foaf:interest dc:title="internet tv" rdf:resource="https://www.livejournal.com/interests.bml?int=internet%20tv" />
+    <foaf:interest dc:title="politics" rdf:resource="https://www.livejournal.com/interests.bml?int=politics" />
+    <foaf:interest dc:title="rdf" rdf:resource="https://www.livejournal.com/interests.bml?int=rdf" />
+    <foaf:interest dc:title="semantic web" rdf:resource="https://www.livejournal.com/interests.bml?int=semantic%20web" />
+    <foaf:interest dc:title="standards" rdf:resource="https://www.livejournal.com/interests.bml?int=standards" />
+    <foaf:interest dc:title="technology" rdf:resource="https://www.livejournal.com/interests.bml?int=technology" />
+    <foaf:interest dc:title="web" rdf:resource="https://www.livejournal.com/interests.bml?int=web" />
+    <foaf:interest dc:title="widgets" rdf:resource="https://www.livejournal.com/interests.bml?int=widgets" />
+    <foaf:interest dc:title="xml" rdf:resource="https://www.livejournal.com/interests.bml?int=xml" />
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>anjeve</foaf:nick>
+        <foaf:member_name>anjeve</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>https://l-userpic.livejournal.com/54077021/20017</foaf:image>
+        <rdfs:seeAlso rdf:resource="https://anjeve.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="https://anjeve.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>brad</foaf:nick>
+        <foaf:member_name>Brad Fitzpatrick</foaf:member_name>
+        <foaf:tagLine>brad&apos;s life</foaf:tagLine>
+        <foaf:image>https://l-userpic.livejournal.com/54541970/2</foaf:image>
+        <rdfs:seeAlso rdf:resource="https://brad.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="https://brad.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>nmh</foaf:nick>
+        <foaf:member_name>goat</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>https://l-userpic.livejournal.com/119226/97764</foaf:image>
+        <rdfs:seeAlso rdf:resource="https://nmh.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="https://nmh.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>crschmidt</foaf:nick>
+        <foaf:member_name>Chris Schmidt</foaf:member_name>
+        <foaf:tagLine>Christopher Schmidt</foaf:tagLine>
+        <foaf:image>https://l-userpic.livejournal.com/80589366/627594</foaf:image>
+        <rdfs:seeAlso rdf:resource="https://crschmidt.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="https://crschmidt.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>quercus</foaf:nick>
+        <foaf:member_name>Dingbat</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>https://l-userpic.livejournal.com/1908057/581109</foaf:image>
+        <rdfs:seeAlso rdf:resource="https://quercus.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="https://quercus.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>sandhawke</foaf:nick>
+        <foaf:member_name>Sandro</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>https://l-userpic.livejournal.com/28466290/586448</foaf:image>
+        <rdfs:seeAlso rdf:resource="https://sandhawke.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="https://sandhawke.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>daveman692</foaf:nick>
+        <foaf:member_name>David Recordon</foaf:member_name>
+        <foaf:tagLine>David Recordon&apos;s (Old) Blog</foaf:tagLine>
+        <foaf:image>https://l-userpic.livejournal.com/46843689/1356357</foaf:image>
+        <rdfs:seeAlso rdf:resource="https://daveman692.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="https://daveman692.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>danja</foaf:nick>
+        <foaf:member_name>ДарьБорисссна</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>https://l-userpic.livejournal.com/47976318/288760</foaf:image>
+        <rdfs:seeAlso rdf:resource="https://danja.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="https://danja.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>missmhart</foaf:nick>
+        <foaf:member_name>missmhart</foaf:member_name>
+        <foaf:tagLine>Mags&apos; Musings</foaf:tagLine>
+        <foaf:image>https://l-userpic.livejournal.com/82994154/2242523</foaf:image>
+        <rdfs:seeAlso rdf:resource="https://missmhart.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="https://missmhart.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>thesliver</foaf:nick>
+        <foaf:member_name>Sliver</foaf:member_name>
+        <foaf:tagLine></foaf:tagLine>
+        <foaf:image>https://l-userpic.livejournal.com/3811411/3062</foaf:image>
+        <rdfs:seeAlso rdf:resource="https://thesliver.livejournal.com/data/foaf" />
+        <foaf:weblog rdf:resource="https://thesliver.livejournal.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+  </foaf:Person>
+</rdf:RDF>
