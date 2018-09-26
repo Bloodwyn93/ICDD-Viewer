@@ -4,6 +4,8 @@ from PyQt4 import QtGui, QtCore
 from zipfile import ZipFile
 import os
 from collections import defaultdict, Iterable, OrderedDict
+import rdflib
+import pprint
 
 
 class application(QtGui.QApplication):
@@ -89,7 +91,17 @@ class application(QtGui.QApplication):
 
             handle = zip.open(file)
             data = handle.read()
-
+            g = rdflib.Graph()
+            if ".rdf" in str(file.filename):
+               try:
+                    p = g.parse(data= data)
+                    string = ""
+                    for stmt in g:
+                        string += "\n" + str(stmt) + "\n"
+                    #print (string + "<<<<<<<<<<<<")
+                    data = string
+               except:
+                   print (file.filename + " not parsed")
             return data
 
 
